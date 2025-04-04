@@ -1,6 +1,6 @@
-import AddContact from './AddContact';
-import ContactsList from './ContactsList';
-import Filter from './Filter';
+import AddContact from './component/AddContact';
+import ContactsList from './component/ContactsList';
+import Filter from './component/Filter';
 
 const App = () => {
   return (

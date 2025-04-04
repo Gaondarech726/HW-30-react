@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { getContacts, getStatusFilter } from './redux/selectors';
-import { deleteContact, toggleFavourites } from './redux/store';
+import { getContacts, getStatusFilter } from '../redux/selectors';
+import { deleteContact, toggleFavourites } from '../redux/store';
 
 const ContactsList = () => {
   const contacts = useSelector(getContacts);

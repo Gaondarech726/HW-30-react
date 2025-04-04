@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { getStatusFilter } from './redux/selectors';
-import { setStatusFilter, statusFilters } from './redux/store';
+import { getStatusFilter } from '../redux/selectors';
+import { setStatusFilter, statusFilters } from '../redux/store';
 
 const Filter = () => {
   const dispatch = useDispatch();

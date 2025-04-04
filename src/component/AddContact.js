@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addContact } from './redux/store';
+import { addContact } from '../redux/store';
 
 const AddContact = () => {
   const [name, setName] = useState('');
