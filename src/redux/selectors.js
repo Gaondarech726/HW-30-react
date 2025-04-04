@@ -1,3 +1,5 @@
+import { statusFilters } from './store';
+
 export const getContacts = state => {
   const { contacts, filters } = state;
   if (filters.status === statusFilters.favourites) {
@@ -10,9 +12,3 @@ export const getContacts = state => {
 };
 
 export const getStatusFilter = state => state.filters.status;
-
-export const statusFilters = Object.freeze({
-  all: 'all',
-  default: 'default',
-  favourites: 'favourites',
-});
