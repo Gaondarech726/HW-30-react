@@ -1,8 +1,8 @@
 {
-  "name": "HW-30-react",
+  "name": "HW-31-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gaondarech726.github.io/HW-30-react/",
+  "homepage": "https://gaondarech726.github.io/HW-31-react/",
   "dependencies": {
     "@redux-devtools/extension": "^3.3.0",
     "@reduxjs/toolkit": "^2.6.1",
